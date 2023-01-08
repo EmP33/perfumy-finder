@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.black-segment {
+    background-color: black;
+    min-height: 10vh;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.return-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#txt-title {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* style answers */
+#content {
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#content section {
+    position: relative;
+}
+
+#content section img {
+    height: auto;
+}
+
+#content section .img-txt {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+}
+
+#content .languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#content .languages .language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
