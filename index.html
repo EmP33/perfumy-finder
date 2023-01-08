@@ -11,13 +11,14 @@
 
 <body>
     <header class="black-segment">
-        <p>Frederico Mahora</p>
+        <h1>Frederico Mahora</h1>
     </header>
 
     <main>
         <span id="txt-title"></span>
         <div id="content">
-            <div class="languages">
+
+            <div class="languages" data-state="lang">
                 <button class="language" data-language="Polish">
                     Polish
                 </button>
@@ -25,20 +26,43 @@
                     English
                 </button>
             </div>
-            <div class="quesions">
-                <button class="question">
-                    <img href="#">
-                    <p></p>
+
+            <div class="genders" data-state="gender">
+                <button class="gender" data-gender="male">
+                    male
+                </button>
+                <button class="gender" data-gender="female">
+                    female
                 </button>
             </div>
+
+            <div class="quesions" data-state="questions">
+                <div class="question">
+                    <!-- GENERIC!!! from json -->
+                </div>
+            </div>
+
+            <div class="summary" data-state="summary">
+                <div class="answers">
+                    <!-- GENERIC -->
+                </div>
+
+                <div class="showPerfumes">
+                    <button>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="perfumes" data-state="perfumes">
+
+            </div>
+
         </div>
     </main>
 
     <footer class="black-segment">
-        <button class="return-btn">
-            <span id="return-btn-txt">Return</span>
-        </button>
-
+        &copy;
     </footer>
 
     <script src="script.js"></script>

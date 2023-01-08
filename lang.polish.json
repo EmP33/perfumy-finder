@@ -1,0 +1,19 @@
+[
+    {
+        "Language": [
+            {
+                "Q_ID": 1,
+                "QUESTION": "jakie lubisz grzyby",
+                "ANSWERS": [
+                    {
+                        "A_ID": 1,
+                        "A_TXT": "Borowiki"
+                    },
+                    {
+                        
+                    }
+                ]
+            }
+        ]
+    }
+]

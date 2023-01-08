@@ -5,7 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: whitesmoke;
 }
 
@@ -77,15 +78,22 @@ main {
     align-items: center;
 }
 
-#content .languages .language {
+button {
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 300px;
     height: 100px;
     background-color: black;
     color: whitesmoke;
     letter-spacing: 2px;
     font-size: 1.5em;
+    outline: none;
+    border: none;
+}
+
+button.answer-option {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
